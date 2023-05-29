@@ -1,0 +1,191 @@
+    <!DOCTYPE html>
+    <html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <link rel="stylesheet" href="css/estilos-retro.css"> -->
+        <!-- <link rel="stylesheet" href="css/estilos-urbano.css"> -->
+        <link rel="stylesheet" href="css/estilos.css">
+        <title>AFILIACION</title>
+    </head>
+
+    <body>
+
+        <h1>Vení Al Gym! <img src="img/1.svg" alt="" style="height: 40px" class="icon"> </h1>
+
+        <form action="#" method="post">
+            <div class="formulario">
+                <div >
+                    <fieldset class="cuadro1">
+                        <legend> 
+                            <img src="img/2.png" alt="" style="height: 20px" class="icon"> Datos
+                            Personales
+                            <img src="img/3.png" alt="" style="height: 20px;" class="icon">
+                        </legend>
+                        <div class="fondoinput">
+                            <label for="nombre" class="dato">Nombre:*</label>
+                            <input type="text" id="nombre" name="nombre" class="input" required>
+                        </div>
+                        <div class="fondoinput">
+                            <label for="apellido" class="dato">Apellido:*</label>
+                            <input type="text" id="apellido" name="apellido" class="input" required>
+                        </div>
+
+                        <div class="fondoinput">
+                            <label for="documento" class="dato">Documento:*</label>
+                            <input type="text" id="documento" name="documento" class="input" required>
+                        </div>
+
+                        <div class="inputblanco">
+                            <label for="nacionalidad" class="dato">Nacionalidad:*</label>
+                            <select name="nacionalidad" id="nacionalidad" class="stretch">
+                                <option selected> - Seleccionar - </option>
+                                <option value="Argentina"> Argentina </option>
+                                <option value="Uruguaya"> Uruguaya </option>
+                                <option value="Brasilera"> Brasilera </option>
+                                <option value="Otra"> Otra </option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="hablanos" class="dato">Contanos un poco de vos : 
+                            </label> <textarea class="dato"
+                                name="hablanos" rows="2" cols="20"></textarea>
+                        </div>
+
+                        <p class="row">Sexo:*</p>
+                        <div class="row">
+                           
+                                <input type="radio" id="femenino" name="sexo" value="Femenino">
+                                <label for="femenino">Femenino</label>
+                          
+                                <input type="radio" id="masculino" name="sexo" value="Masculino">
+                                <label for="masculino">Masculino</label>
+                           
+                                <input type="radio" id="Otro" name="sexo" value="Otro">
+                                <label for="otro">Otro</label>
+                            
+                        </div>
+                    </fieldset>
+                </div>
+                <div>
+                    <div class="separador"></div>
+                    <fieldset class="cuadro2">
+                        <legend> <img src="img/4.png" alt="" style="height: 20px" class="icon"> Datos de
+                            Contacto <img src="img/5.png" alt="" style="height: 20px;" class="icon"></legend>
+                        <div class="fondoinput">
+                            <label for="telefono" class="dato2">Teléfono: </label>
+                            <input type="text" id="telefono" name="telefono" value="" placeholder="Codigo de Area y Numero">
+                        </div>
+                        <div class="fondoinput">
+                            <label for="email" class="dato2">Direccion de Correo Electronico:*</label>
+                            <input type="text" id="email" name="email" value="" placeholder=" Ej: mail@gmail.com ">
+                        </div>
+                    </fieldset>
+                </div>
+                <br>
+                <div>
+                    <div class="separador"></div>
+                    <fieldset class="cuadro3">
+                        <legend> <img src="img/6.png" alt="" style="height: 20px" class="icon">
+                            Actividades
+                            <img src="img/7.png" alt="" style="height: 20px;" class="icon">
+                        </legend>
+                        <p class="small">
+                            Por favor indicá, cuáles actividades te interesan
+                        </p>
+                        <br>
+                        <p class="sede1">
+                            Sede Palermo
+                        </p>
+                        <br>
+                        <div class="row">
+                           
+                                <label for="Basquet">
+                                    <input type="checkbox" id="Basquet" name="depo-1" value="Basquet">
+                                    Básquet
+                                </label>
+                            
+                           
+                                <label for="Futbol">
+                                    <input type="checkbox" id="Futbol" name="depo-2" value="Futbol">
+                                    Futbol
+                                </label>
+                           
+                            
+                                <label for="Boxeo">
+                                    <input type="checkbox" id="Boxeo" name="depo-3" value="Boxeo">
+                                    Boxeo
+                                </label>
+                            
+                            
+                                <label for="tenis">
+                                    <input type="checkbox" id="tenis" name="depo-4" value="Tenis">
+                                    Tenis
+                                </label>
+                           
+                        </div>
+
+                        <br>
+                        <p class="sede2">
+                            Sede Rosario
+                        </p>
+                        <br>
+                        <div class="row">
+                           
+                                <label for="Basquet1">
+                                    <input type="checkbox" id="Basquet1" name="depo-1" value="Basquet">
+                                    Básquet
+                                </label>
+                            
+                           
+                                <label for="Futbol1">
+                                    <input type="checkbox" id="Futbol1" name="depo-2" value="Futbol1">
+                                    Futbol
+                                </label>
+                           
+                            
+                                <label for="Boxeo1">
+                                    <input type="checkbox" id="Boxeo1" name="depo-3" value="Boxeo1">
+                                    Boxeo
+                                </label>
+                           
+                            
+                                <label for="tenis1">
+                                    <input type="checkbox" id="tenis1" name="depo-4" value="Tenis1">
+                                    Tenis
+                                </label>
+                            
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+            <div class="aceptnoved columna">
+                <span>
+                       <br>
+                       <label for="Aceptacion">
+                        <input type="checkbox" id="Aceptacion" name="cond-1" value="Aceptacion">
+                        Acepto las Condiciones*
+                        </label>
+
+                    </span>
+                <span>
+                    <label for="novedades">
+                        <input type="checkbox" id="novedades" name="nove-1" value="novedades" checked>
+                        Deseo recibir novedades
+                    </label>
+                </span>
+            </div>
+
+            <p class="obligatorio">*:campo obligatorio</p>
+
+            <div class="boton">
+                <button type="submit"> Iniciar afiliación </button>
+                <button type="reset"> Restablecer </button>
+            </div>
+
+        </form>
+
+    </body>
+
+    </html>

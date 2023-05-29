@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0px;
+    /* border: solid 2px; */
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+    background-color: #8632E6;
+    color: white;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    text-shadow: rgb(52, 39, 100) 4px 2px;
+    padding-top: 5px;
+    font-size: 40px;
+}
+
+.mas-vendidos {
+    display: inline-block;
+    background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/infobae/GGH7OHRWZ5ARBG2XP4AO53I6R4.jpg);
+    background-size: contain;
+    border-radius: 25px;
+    width: 1200px;
+}
+
+h2 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-stretch: ultra-expanded;
+    text-decoration: underline;
+    font-size: 45px;
+}
+
+p {
+    margin: 5px;
+    font-size: 17px;
+}
+
+figure {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+h3 {
+    color: white;
+    text-align: right;
+    text-shadow: rgb(182, 30, 174) 2px 1px;
+    padding-top: 5px;
+    margin: 5px;
+    font-size: 25px;
+}
+
+.juegos {
+    flex-direction: row;
+    display: flex;
+    background-color: rgba(78, 50, 129, 0.5);
+    color: white;
+    padding: 8px;
+    margin-bottom: 10px;
+    flex-flow: column wrap;
+    border-radius: 40px;
+    align-items: center;
+    column-gap: 15px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+img {
+    width: 600px;
+}
+
+figcaption {
+    margin-bottom: 10px;
+    width: 600px;
+    font-size: 20px;
+}
+
+.boton {
+    background-color: #020314;
+    color: white;
+    text-align: center;
+    padding: 3px 10px;
+    padding-top: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+input {
+    background-color: #b332e6;
+    color: white;
+}
+
+textarea {
+    color: white;
+}
+
+a {
+    display: block;
+    background: #E032E6;
+    background-image: -webkit-linear-gradient(top, #E032E6, #5932E6);
+    background-image: -moz-linear-gradient(top, #E032E6, #5932E6);
+    background-image: -ms-linear-gradient(top, #E032E6, #5932E6);
+    background-image: -o-linear-gradient(top, #E032E6, #5932E6);
+    background-image: linear-gradient(to bottom, #E032E6, #5932E6);
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 50px;
+    border: solid rgb(149, 64, 228);
+}
+
+a:hover {
+    background: #5932E6;
+    background-image: -webkit-linear-gradient(top, #5932E6, #E032E6);
+    background-image: -moz-linear-gradient(top, #5932E6, #E032E6);
+    background-image: -ms-linear-gradient(top, #5932E6, #E032E6);
+    background-image: -o-linear-gradient(top, #5932E6, #E032E6);
+    background-image: linear-gradient(to bottom, #5932E6, #E032E6);
+    text-decoration: none;
+}
+
+footer {
+    padding-top: 5px;
+    font-size: 15px;
+    text-align: center;
+    width: 1200px;
+    text-shadow: rgb(73, 11, 97) 2px 1px;
+
+}

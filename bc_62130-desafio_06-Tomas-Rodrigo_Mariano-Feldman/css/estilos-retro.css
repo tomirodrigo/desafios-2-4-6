@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Mono:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+    font-family: 'Press Start 2P', cursive;
+    border: solid px white
+}
+
+
+body {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: black;
+    flex-direction: column;
+    color: #54FE55;
+    text-shadow: 0px 0px 10px #54FE55;
+}
+
+body :nth-of-type(1) {
+    align-self: center;
+}
+
+legend {
+    margin: 5px;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.separador {
+    display: none;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0px 0px 10px #54FE55;
+    height: 100px;
+    text-decoration: underline;
+
+}
+
+.icon {
+    display: none;
+
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+form label {
+    display: flex;
+    flex-direction: column;
+    text-shadow: 0px 0px 10px #54FE55;
+    height: 25px;
+    margin: 10px;
+}
+
+
+
+form input {
+    display: flex;
+    background: black;
+    border: 1px solid #54FE55;
+    color: #54FE55;
+    text-shadow: 0px 0px 10px #54FE55;
+    box-shadow: 0px 0px 5px #54FE55;
+    height: 35px;
+}
+
+
+form input:focus {
+    outline: none;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: #1a4f1a;
+    color: #54FE55;
+    border: 0;
+    text-shadow: 0px 0px 10px #54FE55;
+    box-shadow: 0px 0px 10px #1a4f1a;
+    margin: 10px;
+
+}
+
+.boton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    padding: 20px;
+}
+
+form button:focus {
+    outline: none;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-self: left;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+}
+
+#tenis,
+#tenis1,
+#Boxeo,
+#Boxeo1,
+#Futbol,
+#Futbol1,
+#Basquet,
+#Basquet1 {
+    margin: 8px;
+}
+
+
+fieldset {
+    border: none;
+}
+
+div {
+    padding: 10px;
+
+}
+
+legend {
+    font-size: large;
+    text-decoration: underline
+}
+
+option {
+    background-color: black;
+    color: #54FE55;
+    border-color: #54FE55;
+}
+
+select {
+    background-color: black;
+    color: #54FE55;
+    border-color: #54FE55;
+    height: 35px;
+    text-shadow: 0px 0px 10px #54FE55;
+    box-shadow: 0px 0px 5px #54FE55;
+
+}
+
+textarea {
+    display: flex;
+    height: 50px;
+    width: 400px;
+    background-color: black;
+    color: #54FE55;
+    border-color: #54FE55;
+    text-shadow: 0px 0px 10px #54FE55;
+    box-shadow: 0px 0px 5px #54FE55;
+}
+
+.small {
+    font-size: small;
+    margin-top: 15px;
+}
+
+.dato {
+    font-size: small;
+}
+
+.dato2 {
+    font-size: small;
+}
+
+.sede1 {
+    font-size: small;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+.sede2 {
+    font-size: small;
+    font-style: oblique;
+    text-decoration: underline;
+    padding-top: 30px;
+}
+
+.aceptnoved {
+    font-size: small;
+    
+}
+
+#Aceptacion {
+    margin-bottom: 9px ;
+}
+
+#novedades {
+    margin-bottom: 9px;
+    margin-top: 10px;
+}
+
+label {
+    font-size: small;
+}
+
+.obligatorio {
+    display: none;
+}
+
+span {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+}
+

@@ -1,0 +1,81 @@
+body {
+    background-color: #273238;
+}
+
+h1 {
+    background-color: white;
+    color: #698593;
+    font-family: Impact, Charcoal, sans-serif;
+    font-weight: 300;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 1px;
+}
+
+p {
+    color: #CFD7DA;
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: justify;
+}
+
+img{
+    margin-left: 40px;
+    border-width: 5px;
+    border-style: ridge;
+}
+
+h2{
+    font-weight: 22;
+    font-size: 20px;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+.primer-letra {
+    font-weight: 20;
+    font-size: 28px;
+}
+
+.aspiradora-style {
+    color: #e6cbbf;
+}
+
+.flotado-aspiradora {
+    border-color: #e6cbbf;
+}
+
+.celulares-style {
+    color: #a1c1cb;
+}
+
+.flotado-celulares {
+    border-color: #a1c1cb; 
+}
+
+.consolas-style {
+    color: #bcbdbf;
+}
+
+.flotado-consolas {
+    border-color: #bcbdbf; 
+}
+
+.home-style {
+    color: #8d94a1;
+}
+
+.flotado-home {  
+  border-color: #8d94a1; 
+}
+
+.TV-style {
+    color: #b2b2aa;
+}
+
+.flotado-TV { 
+    border-color: #b2b2aa; 
+}
+
+
+

@@ -1,0 +1,204 @@
+  @import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Staatliches&display=swap');
+
+
+   
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+    color: black ;
+  }
+
+body {
+    display: flex;
+    flex-direction: column;
+    
+    background-image:  linear-gradient(#61161644, #4b4b4b), url(../img/pedro-lastra-Nyvq2juw4_o-unsplash.jpg);
+    background-size: cover  ;
+    
+    font-family: 'Pangolin', cursive;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+    
+}
+h1{
+   
+    display: flex;
+    color: white;
+    background-image: linear-gradient(#6876a0, #c1afb0);
+    font-family: 'Staatliches', cursive;
+    font-weight: 600;
+    font-size: 50px;
+    border-top: solid 15px #1a4e4c;
+    border-bottom: solid 15px #1a4e4c;
+    border-left: solid 15px #1a4e4c;
+    border-right: solid 15px #1a4e4c;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 800px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    background-image: linear-gradient(transparent, #8a5b1d), url(../img/guzman-barquin-GQmYqY2ySLg-unsplash.jpg);
+    background-size: cover;
+    margin: 10px;
+    padding: 30px;
+    border: 2px solid #6876a0;
+    border-radius: 30px;
+}
+
+legend {
+    display: flex;
+    background-color:#435353;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+.stretch {
+    align-items: stretch;
+    height: 30px;
+    font-size: 18px;
+    color: #888a7a;
+}
+
+.separador{ 
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    border-top: dotted 10px #a6c1b9;
+    align-self: center;
+}
+
+
+
+.small{
+    font-size: small;
+}
+
+.dato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    color: white;
+}
+
+.dato2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    padding: 5px;
+    color: white;
+} 
+
+textarea{
+    display: flex;
+    height: 100px;
+}
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-self: left;
+    padding: 5px;
+}
+.row2 {
+    display: flex;
+    flex-direction: row;
+    align-self: left;
+    padding: 5px;
+    color: white;
+}
+input{
+    text-align: end;
+    padding: 7px;
+}
+
+input:focus,
+textarea:focus {
+    background-color: #88514c;
+    color: #000000;
+}
+
+.obligatorio{
+    color: #000000;
+}
+
+.columna {
+    flex-direction: column;
+}
+
+span{
+    display: flex;
+}
+
+.boton{ 
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+color: white;
+
+} 
+
+button {
+    background-color: #15546f;
+    color: white;
+    padding: 10px;
+    height: 50px;
+    width: 160px;
+    margin: 30px;
+    border-radius: 25px;
+    font-family: 'Staatliches', cursive;
+    font-size: 18px;
+    border-color: #ffffff;
+    border-style:solid;
+}
+
+.fondoinput :focus {
+    background-color: #88514c;
+    color: #ffffff;
+}
+.inputblanco :focus {
+    background-color: #ffffff;
+    color: #000000;
+    
+}
+
+.aceptnoved {
+    color: #ffffff;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+fieldset:focus-within {
+    background-color: #a6c1b9;
+}
+
+fieldset:focus-within legend {
+    background-color: #1a4e4c;
+}
+
+label{
+    color: #ffffff;
+}
+
+p {
+    color: #ffffff;
+}

@@ -1,0 +1,37 @@
+.centrado-logo{
+    width: 250px;
+}
+h1{
+    text-align: center;
+    color: #BB5397;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    color: #BB5397;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.45em;
+    word-spacing: 0.45em;
+    font-weight: 500 ;
+    font-size: 20px;
+}
+p{
+    color: #6379AA;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+.pop-imagen{
+    float: right;
+    width: 300px;
+}
+.caribe-imagen{
+    float: left;
+    width: 270px;
+}
+.animal-imagen{
+    float: right;
+    width: 300px;
+}
+.m-imagen{
+    width: 100%;
+}
